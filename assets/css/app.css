@@ -1,0 +1,29 @@
+
+* {
+  font-family: Palatino;
+}
+
+#color-mask {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0.35;
+  background-image: linear-gradient( #458588, #076678);
+  pointer-events: none;
+}
+
+.activites-list {
+  margin-top: 5%;
+}
+
+.activites-list div {
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+.fab, .fas {
+  font-size: 1.4em;
+}
+
+
